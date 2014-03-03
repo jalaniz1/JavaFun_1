@@ -14,7 +14,7 @@
 
 
         // Private member variables
-        private Map m_grades = new HashMap(); // Our Map/Dictionary shared variable
+        private Map<String, Double> m_grades = new TreeMap<String, Double>(); // Our Map/Dictionary shared variable
         private static volatile Symbol_Table singletonInst; // Shared across all accesses of Symbol_Table
         private Symbol_Table() {} // Prevents any class from instantiating
 
@@ -49,8 +49,10 @@
 
             if(!m_grades.isEmpty()) // If not empty!
             {
-                Map<String, String> treeMap = new TreeMap<String, String>(m_grades); // Sorted map
-               for (Map.Entry entry : treeMap.entrySet())
+                // TreeMap becomes sorted based on values of m_grades
+                // TreeMap is said to be slower because of it's ordering algorithm
+                // TreeMap is ordered whereas HashMap is unordered
+                for (Map.Entry entry : m_grades.entrySet())
                {
                    System.out.println(entry.getKey() + " = " + entry.getValue());
                }

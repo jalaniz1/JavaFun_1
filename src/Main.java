@@ -10,6 +10,6 @@ public class Main {
         sym.add_Grade("A", 4.0);
         sym.add_Grade("A-", 3.66);
         sym.add_Grade("B-", 3.33);
-        sym.print();
+        sym.print(); // Call our APIs Print function
     }
 }
