@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a353275b-f5c9-4ef3-9e9a-0cb9564d7da3" name="Default" comment="" />
+    <list default="true" id="a353275b-f5c9-4ef3-9e9a-0cb9564d7da3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Symbol_Table.java" afterPath="$PROJECT_DIR$/src/Symbol_Table.java" />
+    </list>
     <ignored path="JavaFun_1.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -67,7 +70,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="31" selection-start="188" selection-end="188" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="584">
+            <state line="11" column="34" selection-start="260" selection-end="260" vertical-scroll-proportion="0.32020548" vertical-offset="0" max-vertical-offset="584">
               <folding />
             </state>
           </provider>
@@ -76,10 +79,11 @@
       <file leaf-file-name="Symbol_Table.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Symbol_Table.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="1190">
+            <state line="63" column="9" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1292">
               <folding>
-                <element signature="e#0#2185#0" expanded="true" />
+                <element signature="e#0#2457#0" expanded="true" />
                 <element signature="imports" expanded="true" />
+                <element signature="e#1864#1880#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -402,17 +406,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Symbol_Table.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="319" max-vertical-offset="1190">
+        <state line="63" column="9" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="421" max-vertical-offset="1292">
           <folding>
-            <element signature="e#0#2185#0" expanded="true" />
+            <element signature="e#0#2457#0" expanded="true" />
             <element signature="imports" expanded="true" />
+            <element signature="e#1864#1880#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="31" selection-start="188" selection-end="188" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="584">
+        <state line="11" column="34" selection-start="260" selection-end="260" vertical-scroll-proportion="0.32020548" vertical-offset="0" max-vertical-offset="584">
           <folding />
         </state>
       </provider>
