@@ -53,9 +53,8 @@
                 // TreeMap is said to be slower because of it's ordering algorithm
                 // TreeMap is ordered whereas HashMap is unordered
                 for (Map.Entry entry : m_grades.entrySet())
-               {
-                   System.out.println(entry.getKey() + " = " + entry.getValue());
-               }
+                    System.out.println(entry.getKey() + " = " + entry.getValue());
+
                // Iterator it = m_grades.entrySet().iterator();
                 //while(it.hasNext()){
                   //  Map.Entry pairs = (Map.Entry)it.next();
