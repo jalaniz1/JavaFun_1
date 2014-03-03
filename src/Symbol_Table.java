@@ -46,17 +46,23 @@
 
         public void print()
         {
+
             if(!m_grades.isEmpty()) // If not empty!
             {
-                Iterator it = m_grades.entrySet().iterator();
-                while(it.hasNext()){
-                    Map.Entry pairs = (Map.Entry)it.next();
-                    System.out.println(pairs.getKey() + " = " + pairs.getValue());
-                    it.remove(); // Avoid concurrent modification exception
+                Map<String, String> treeMap = new TreeMap<String, String>(m_grades); // Sorted map
+               for (Map.Entry entry : treeMap.entrySet())
+               {
+                   System.out.println(entry.getKey() + " = " + entry.getValue());
+               }
+               // Iterator it = m_grades.entrySet().iterator();
+                //while(it.hasNext()){
+                  //  Map.Entry pairs = (Map.Entry)it.next();
+                    //System.out.println(pairs.getKey() + " = " + pairs.getValue());
+                    //it.remove(); // Avoid concurrent modification exception
                 }
             }
-            }
-        }
+         }
+
 
 
 
